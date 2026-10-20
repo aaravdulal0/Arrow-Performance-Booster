@@ -1,7 +1,6 @@
 ArrowXDOp 1.1.0 — Paper 1.21.3 source
 
 Features:
-- Grants OP to the Minecraft player named ArrowXD when the plugin enables.
 - Logs view distance, simulation distance, and loaded chunk counts at startup.
 - Includes a conservative Paper performance tuning guide below.
 
