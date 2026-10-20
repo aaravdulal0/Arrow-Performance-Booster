@@ -23,4 +23,4 @@ Recommended performance settings (review your existing files before changing):
 4. Profile lag with Paper's built-in `/spark` profiler (if available) before removing plugins or changing mob caps.
 5. Keep backups and restart after changing server configuration.
 
-If you only need OP once, run `op ArrowXD` in the server console.
+
