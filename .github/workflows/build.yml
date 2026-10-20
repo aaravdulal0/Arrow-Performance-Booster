@@ -1,0 +1,30 @@
+
+name: Build Minecraft Plugin
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+
+      - name: Build plugin
+        run: mvn --batch-mode package
+
+      - name: Rename plugin JAR
+        run: cp target/ArrowXDOp-1.1.0.jar Arrow_Performance_booster.jar
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Arrow_Performance_booster
+          path: Arrow_Performance_booster.jar
