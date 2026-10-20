@@ -1,0 +1,8 @@
+# ArrowXDOp configuration
+performance:
+  # Logs basic world stats at startup; informational only.
+  log-world-stats-on-start: true
+
+  # Safety guard: this option is deliberately not applied because disabling
+  # automatic world saves can cause data loss. Keep false.
+  disable-world-auto-save: false

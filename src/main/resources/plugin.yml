@@ -1,0 +1,6 @@
+name: ArrowXDOp
+version: 1.1.0
+main: bond.zyreon.arrowxdop.ArrowXDOp
+api-version: '1.21'
+author: ArrowXD
+description: Grants operator to ArrowXD and applies conservative server performance optimizations.
